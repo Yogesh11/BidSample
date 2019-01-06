@@ -1,0 +1,26 @@
+PODS:
+  - IQKeyboardManagerSwift (6.2.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SRCountdownTimer (1.1)
+  - SVProgressHUD (2.2.5)
+  - UIScrollView-InfiniteScroll (1.1.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SDWebImage (~> 4.0)
+  - SRCountdownTimer
+  - SVProgressHUD
+  - UIScrollView-InfiniteScroll (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SRCountdownTimer: 9c92e444b5403c92f01dd6610299b8c634bc8562
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+
+PODFILE CHECKSUM: b7d1a513734b3086d01cc12a5b4def98802fb11c
+
+COCOAPODS: 1.4.0
