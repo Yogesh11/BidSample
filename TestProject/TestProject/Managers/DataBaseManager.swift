@@ -2,8 +2,8 @@
 //  DataBaseManager.swift
 //  TestProject
 //
-//  Created by Yogesh on 08/12/18..
-//  Copyright © 2018 Test. All rights reserved.
+//  Created by Yogesh on 05/01/19.
+//  Copyright © 2019 Test. All rights reserved.
 //
 
 import UIKit
@@ -115,22 +115,6 @@ class DataBaseManager: NSObject {
         }
     }
     
-    func saveArticle(article : ArticleModel){
-        var articledb = getEntityByName(entityName: "Article", predicate: NSPredicate(format: "rowId = %d", article.rowID))?.first
-        if (articledb == nil) {
-            articledb = self.insertEntity(entityName: "Article") as! Article
-        }
-        updateEntity(articleDb: articledb as! Article, model: article)
-    }
-    
-    private func updateEntity(articleDb : Article , model : ArticleModel){
-        articleDb.title = model.titleText
-        articleDb.rowId = Int32(model.rowID)
-        articleDb.desc = model.descriptionText
-        articleDb.clickableUrl = model.clickableUrl?.absoluteString
-        articleDb.urlToImage   = model.imageUrl?.absoluteString
-        saveContext()
-    }
     
 
 }

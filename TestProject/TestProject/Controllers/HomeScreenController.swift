@@ -2,7 +2,7 @@
 //  HomeScreenController.swift
 //  TestProject
 //
-//  Created by wooqer on 05/01/19.
+//  Created by Yogesh on 05/01/19.
 //  Copyright © 2019 Test. All rights reserved.
 //
 
@@ -49,9 +49,22 @@ class HomeScreenController: UIViewController {
     }
     
     @IBAction func logOut(_ sender: Any) {
-        UserDefaults.standard.removeObject(forKey: "userData")
-        UserDefaults.standard.synchronize()
-        dismiss(animated: true, completion:  nil)
+        let alertController  = UIAlertController(title: "Log Out", message: "You will be returned to the login screen.", preferredStyle: .alert)
+        
+        let cancel = UIAlertAction(title: "Cancel", style: .default){ (action) in
+            
+        }
+        alertController.addAction(cancel)
+        
+        let alertAction = UIAlertAction(title: Constant.ButtonTitle.koKTitle, style: .default){ (action) in
+            UserDefaults.standard.removeObject(forKey: "userData")
+            UserDefaults.standard.synchronize()
+            self.dismiss(animated: true, completion:  nil)
+        }
+        alertController.addAction(alertAction)
+        present(alertController, animated: true, completion: nil)
+        
+       
     }
     
     @objc private func pullToRefresh(_ refreshControl: UIRefreshControl){

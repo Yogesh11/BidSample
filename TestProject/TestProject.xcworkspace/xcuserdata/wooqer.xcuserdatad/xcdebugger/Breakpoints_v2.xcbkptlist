@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestProject/Controllers/HomeScreenController.swift"
-            timestampString = "568441432.771862"
+            timestampString = "568442309.824507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestProject/Controllers/HomeScreenController.swift"
-            timestampString = "568441432.771964"
+            timestampString = "568442309.8250231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestProject/Controllers/HomeScreenController.swift"
-            timestampString = "568441432.772598"
+            timestampString = "568442309.825482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "openDetail(indexValue:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestProject/Controllers/HomeScreenController.swift"
-            timestampString = "568441432.773168"
+            timestampString = "568442309.825938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"

@@ -2,8 +2,8 @@
 //  Constant.swift
 //  ShareChat
 //
-//  Created by Yogesh on 7/28/18.
-//  Copyright © 2018 test. All rights reserved.
+//  Created by Yogesh on 05/01/19.
+//  Copyright © 2019 test. All rights reserved.
 //
 
 import Foundation
@@ -16,16 +16,14 @@ struct Constant {
 
     
     struct CellIdentifier {
-        static let kArticleCell  = "ArticleCell"
+       
     }
 
     struct JsonKeys {
         static let kError        = "error"
         static let kdata         = "data"
-        static let kAuthorName   = "authorName"
-        static let kArticles     = "articles"
         static let kStatus       = "status"
-        static let ktotalResults       = "totalResults"
+      
         
     }
     

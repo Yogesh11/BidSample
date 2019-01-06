@@ -2,8 +2,8 @@
 //  SCError.swift
 //  ShareChat
 //
-//  Created by Yogesh on 7/29/18.
-//  Copyright © 2018 test. All rights reserved.
+//  Created by Yogesh on 05/01/19.
+//  Copyright © 2019 test. All rights reserved.
 //
 
 import UIKit

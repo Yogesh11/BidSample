@@ -2,7 +2,7 @@
 //  TrendsViewModel.swift
 //  TestProject
 //
-//  Created by wooqer on 06/01/19.
+//  Created by Yogesh on 06/01/19.
 //  Copyright © 2019 Test. All rights reserved.
 //
 

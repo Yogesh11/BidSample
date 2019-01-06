@@ -2,7 +2,7 @@
 //  DetailViewModel.swift
 //  TestProject
 //
-//  Created by wooqer on 05/01/19.
+//  Created by Yogesh on 05/01/19.
 //  Copyright © 2019 Test. All rights reserved.
 //
 
